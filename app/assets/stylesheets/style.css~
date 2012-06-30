@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background: none repeat scroll 0 0 #161616;
+    color: #616161;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 100%;
+    line-height: 1.125em;
+}
+img {
+    border: 0 none;
+    text-align: left;
+    vertical-align: top;
+}
+object {
+    outline: medium none;
+    vertical-align: top;
+}
+ul, ol {
+    list-style: none outside none;
+}
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.col-1, .col-2, .col-3 {
+    float: left;
+}
+.alignright {
+    text-align: right;
+}
+.aligncenter {
+    text-align: center;
+}
+.wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.container {
+    width: 100%;
+}
+#main {
+    background: url("images/main-bg.jpg") no-repeat scroll left top transparent;
+    font-size: 0.75em;
+    margin: 0 auto;
+    width: 1000px;
+}
+#header {
+    height: 420px;
+}
+#footer {
+    font-family: Tahoma,Geneva,sans-serif;
+    height: 83px;
+}
+.tail-top {
+    background: url("images/tail-top.jpg") repeat-x scroll left top #FFFFFF;
+}
+.tail-bottom {
+    background: url("images/tail-bottom.gif") repeat-x scroll left bottom transparent;
+}
+input, select, textarea {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    vertical-align: middle;
+}
+.img-indent {
+    float: left;
+    margin: 0 20px 0 0;
+}
+.img-box {
+    overflow: hidden;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.img-box img {
+    float: left;
+    margin: 0 20px 0 0;
+}
+.extra-wrap {
+    overflow: hidden;
+}
+p {
+    margin-bottom: 18px;
+}
+.p1 {
+    margin-bottom: 9px;
+}
+.p2 {
+    margin-bottom: 18px;
+}
+.p3 {
+    margin-bottom: 27px;
+}
+a {
+    color: #C72D00;
+    outline: medium none;
+}
+a:hover {
+    text-decoration: none;
+}
+h2 {
+    color: #C72D00;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+h4 {
+    font-size: 1em;
+    margin-bottom: 6px;
+}
+h4 a {
+    color: #616161;
+    text-decoration: none;
+}
+h4 a:hover {
+    color: #C72D00;
+    text-decoration: underline;
+}
+.link1 {
+    background: url("images/link1-bg.gif") repeat-x scroll left top transparent;
+    color: #C72201;
+    display: block;
+    float: right;
+    position: relative;
+    text-decoration: none;
+}
+.link1:hover {
+    text-decoration: none;
+}
+.link1 em {
+    background: url("images/link1-left.gif") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+}
+.link1 b {
+    background: url("images/link1-right.gif") no-repeat scroll right top transparent;
+    display: block;
+    float: left;
+    font-style: normal;
+    padding: 5px 20px;
+}
+.link1 b span {
+    color: #FFFFFF;
+    cursor: pointer;
+    left: 19px;
+    position: absolute;
+    top: 4px;
+}
+.address {
+    float: left;
+}
+.address dt {
+    margin-bottom: 16px;
+}
+.address dd {
+    clear: both;
+    text-align: right;
+}
+.address dd span {
+    float: left;
+    padding-right: 25px;
+}
+#header .row-1 {
+    height: 53px;
+}
+#header .row-1 .top-nav {
+    float: right;
+    padding: 12px 34px 0 0;
+}
+#header .row-1 .top-nav li {
+    display: inline;
+    float: left;
+}
+#header .row-2 {
+    height: 308px;
+}
+#header .row-2 .indent {
+    padding: 54px 0 0 36px;
+}
+#header .row-3 {
+    padding-left: 14px;
+}
+.site-nav {
+    background: url("images/divider.gif") no-repeat scroll left top transparent;
+    overflow: hidden;
+    width: 100%;
+}
+.site-nav li {
+    display: inline;
+}
+.site-nav li a {
+    background: url("images/divider.gif") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 59px;
+    line-height: 59px;
+    padding: 0 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.site-nav li a:hover {
+    color: #C72D00;
+}
+#content {
+    padding: 42px 35px 50px 49px;
+}
+#content .col-1 {
+    margin-right: 60px;
+    width: 556px;
+}
+#content .col-2 {
+    width: 290px;
+}
+#content .section {
+    padding-bottom: 38px;
+}
+#content .inner_copy {
+    border: 0 none;
+    color: #FF0000;
+    float: right;
+    font-size: 12px;
+    line-height: 0;
+    margin: -123px auto 0;
+    overflow: hidden;
+    padding: 0;
+    width: 28% !important;
+}
+.img-list li {
+    overflow: hidden;
+    padding-bottom: 2px;
+    width: 100%;
+}
+.img-list li.last {
+    padding-bottom: 0;
+}
+.img-list li img {
+    float: left;
+    margin-right: 20px;
+}
+.team-list {
+    margin-bottom: -20px;
+}
+.team-list li {
+    overflow: hidden;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.team-list li.last {
+    padding-bottom: 0;
+}
+.team-list li img {
+    float: left;
+    margin-right: 20px;
+}
+.articles-list {
+    margin-bottom: -20px;
+}
+.articles-list li {
+    overflow: hidden;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.articles-list li.last {
+    padding-bottom: 0;
+}
+.articles-list li img {
+    float: left;
+    margin-right: 19px;
+}
+.articles-list li p {
+    margin-bottom: 6px;
+}
+dl dt {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+dl dd {
+    margin-bottom: 18px;
+}
+.list1 {
+    padding-bottom: 18px;
+}
+.list1 li {
+    background: url("images/arrow1.gif") no-repeat scroll left 6px transparent;
+    padding: 0 0 0 9px;
+    position: relative;
+}
+#footer .indent {
+    color: #FFFFFF;
+    padding: 27px 128px 0 49px;
+}
+#footer img {
+    position: relative;
+    top: -3px;
+}
+#search-form {
+    float: left;
+    padding: 16px 0 0 50px;
+}
+#search-form fieldset {
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 0.91em;
+    text-transform: uppercase;
+}
+#search-form input.text {
+    background: url("../images/input-bg.gif") repeat-x scroll left top #FFFFFF;
+    border: 1px solid #C85504;
+    padding: 1px 0 1px 3px;
+    text-transform: none;
+    width: 144px;
+}
+#poll-form fieldset {
+    border: medium none;
+}
+#poll-form label {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 10px;
+    vertical-align: top;
+    width: 100%;
+}
+#poll-form input.radio {
+    height: 14px;
+    margin-right: 5px;
+    width: 14px;
+}
+#contacts-form {
+    clear: right;
+    overflow: hidden;
+    width: 900px;
+}
+#contacts-form fieldset {
+    border: medium none;
+    float: left;
+}
+#contacts-form .field {
+    clear: both;
+}
+#contacts-form label {
+    float: left;
+    font-weight: bold;
+    line-height: 18px;
+    padding-bottom: 6px;
+    width: 97px;
+}
+#contacts-form input {
+    background: url("images/input-bg1.gif") repeat-x scroll left top #FFFFFF;
+    border: 1px solid #929292;
+    color: #616161;
+    float: left;
+    padding: 1px 0 1px 3px;
+    width: 190px;
+}
+#contacts-form textarea {
+    background: url("images/textarea-bg.gif") repeat-x scroll left top #FFFFFF;
+    border: 1px solid #929292;
+    color: #616161;
+    float: left;
+    height: 130px;
+    margin-bottom: 16px;
+    overflow: auto;
+    padding: 1px 0 1px 3px;
+    width: 795px;
+}
+

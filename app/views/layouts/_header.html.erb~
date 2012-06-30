@@ -1,0 +1,49 @@
+<div id="header">
+	
+	<div class="row-1">
+		<ul class="top-nav">
+			<li><a href='#'><img src="images/icon-home.gif" alt=""></a>
+			<li><a href='#'><img src="images/icon-mail.gif" alt=""></a>
+			<li><a href='#'><img src="images/icon-map.gif" alt=""></a>			
+		</ul>	
+		
+		<form id="search-form" action="">
+			<fieldset>Website Search &nbsp; <input class="text" type="text" value="">
+			</fieldset>
+		</form>
+
+	</div>
+
+	<div class="row-2">
+		<div class="indent">
+			<a href="home.html">
+				Night Queen	
+			</a>
+		</div>
+	</div>
+
+	<div class="row-3">
+		<ul class="site-nav">
+			<li>
+			<a href="#">Home</a>
+			</li>
+	
+			<li>
+			<a href="#">About Us</a>
+			</li>
+	
+			<li>
+			<a>Articles</a>
+			</li>
+
+			<li>
+			<a href="#">Contact Us</a>
+			</li>
+
+			<li>
+			<a href="#">Site Map</a>
+			</li>
+		</ul>
+	</div>
+</div>
+

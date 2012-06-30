@@ -1,0 +1,11 @@
+<div id="footer">
+	<div class="indent">
+		<div class="fleft">
+			Designed by: &nbsp;
+			<a href="http://portfoliopravin.heroku.com/" target="blank">
+			vajapravin
+			</a>
+		</div>
+		<div class="fright">Copyright - Type in Your Name</div>
+	</div>
+</div>
