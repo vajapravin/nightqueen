@@ -1,3 +1,8 @@
+@font-face {
+	font-family: AlfredDrake;
+	src: url('../fonts/alfreddrake.ttf') format('truetype');  
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -193,7 +198,17 @@ h4 a:hover {
     height: 308px;
 }
 #header .row-2 .indent {
-    padding: 54px 0 0 36px;
+	text-align: center;
+	font-family: AlfredDrake;
+    padding: 54px 0 0 16px;
+    color: #E16100;
+    font-size: 105px;    
+    font-weight: bold;
+    font-style: normal;
+    line-height: 125px;    
+    width: 450px;
+    text-shadow: 3px 3px 3px #000;
+    cursor: default;
 }
 #header .row-3 {
     padding-left: 14px;
@@ -220,6 +235,9 @@ h4 a:hover {
 }
 .site-nav li a:hover {
     color: #C72D00;
+}
+.site-nav li.last a{
+	background: none;
 }
 #content {
     padding: 42px 35px 50px 49px;
